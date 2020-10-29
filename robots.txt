@@ -1,1 +1,1 @@
-Sitemap: https://kaushalbundel.github.io/blog/sitemap.xml
+Sitemap: http://kaushalbundel.page/sitemap.xml
