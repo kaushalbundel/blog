@@ -4,8 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+I am Kaushal Bundel. I enjoy solving problems and this blog is an attempt to share these observation with wider world.
 
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+Please drop a mail to **kaushalbundel@gmail.com**
