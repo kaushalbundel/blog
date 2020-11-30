@@ -21,7 +21,7 @@ The topic was quite interesting with Kunal Shah explaining that there are two ki
 ---
 
 |Wealth driven society | Status Driven Society|
-|-----|-----|
+|-|-|
 |- more colleborative society|- less colleborative Society|
 |- is not zero sum|- is zero sum|
 |- Wealth Generation is rewarded|-Wealth Generation is abhored|
