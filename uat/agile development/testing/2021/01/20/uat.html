@@ -4,18 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Kaushal’s Blog | Understanding the world</title>
+<title>Notes on UAT | Kaushal’s Blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Kaushal’s Blog" />
+<meta property="og:title" content="Notes on UAT" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Understanding the world" />
-<meta property="og:description" content="Understanding the world" />
-<link rel="canonical" href="http://kaushalbundel.page/" />
-<meta property="og:url" content="http://kaushalbundel.page/" />
+<meta name="description" content="Study notes on how to User Acceptance Testing" />
+<meta property="og:description" content="Study notes on how to User Acceptance Testing" />
+<link rel="canonical" href="http://kaushalbundel.page/uat/agile%20development/testing/2021/01/20/uat.html" />
+<meta property="og:url" content="http://kaushalbundel.page/uat/agile%20development/testing/2021/01/20/uat.html" />
 <meta property="og:site_name" content="Kaushal’s Blog" />
-<meta property="og:image" content="http://kaushalbundel.page/images/logo.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-20T00:00:00-06:00" />
 <script type="application/ld+json">
-{"description":"Understanding the world","url":"http://kaushalbundel.page/","@type":"WebSite","headline":"Kaushal’s Blog","image":"http://kaushalbundel.page/images/logo.png","name":"Kaushal’s Blog","@context":"https://schema.org"}</script>
+{"description":"Study notes on how to User Acceptance Testing","url":"http://kaushalbundel.page/uat/agile%20development/testing/2021/01/20/uat.html","@type":"BlogPosting","headline":"Notes on UAT","dateModified":"2021-01-20T00:00:00-06:00","datePublished":"2021-01-20T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://kaushalbundel.page/uat/agile%20development/testing/2021/01/20/uat.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://kaushalbundel.page/feed.xml" title="Kaushal's Blog" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -73,69 +74,114 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><h1 id="posts">Posts</h1>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Notes on UAT</h1><p class="page-description">Study notes on how to User Acceptance Testing</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-01-20T00:00:00-06:00" itemprop="datePublished">
+        Jan 20, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/categories/#UAT">UAT</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/categories/#Agile Development">Agile Development</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/categories/#Testing">Testing</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><strong>What is UAT?</strong></p>
+
+<p>UAT is User Acceptance testing. Essentially it is a testing performed by the end user/client before moving the software application to the production environment.</p>
+
+<p><strong>What’s the need of UAT?</strong></p>
+
+<ul>
+  <li>capture the requirement in a direct and verifiable manner</li>
+  <li>identify problems which unit/integration tests might have missed</li>
+  <li>tells how “done” the system is</li>
+</ul>
+
+<p><strong>Steps of doing an effective UAT</strong></p>
+<ol>
+  <li>Plan the UAT</li>
+  <li>Preparation of the test data, scenarios and test environment</li>
+  <li>UAT test scheduling and management</li>
+  <li>UAT testing execution and issue management</li>
+  <li>Testing signoff and reporting</li>
+</ol>
+
+<p><strong>Types of UAT</strong></p>
+
+<p><u>Alpha Testing</u></p>
+
+<ul>
+  <li>takes place in development environment</li>
+  <li>usually done by internal staff, before product is released by external users/clients</li>
+</ul>
+
+<p><u>Beta Testing</u></p>
+
+<ul>
+  <li>takes place in customers environment</li>
+</ul>
+
+<p><u>Regulation Acceptance Testing</u></p>
+
+<ul>
+  <li>testing for Compliance</li>
+  <li>test if the software is compatible with rules and regulations set by government/regulatory agencies</li>
+</ul>
+
+<p><u>Contract Acceptance Testing</u></p>
+
+<ul>
+  <li>test against the specifics mentioned in the contract</li>
+</ul>
+
+<p><u>Operational Acceptance Testing</u></p>
+
+<ul>
+  <li>testing for operational working (environment, scale, reliability, stability, compatibility)</li>
+</ul>
+
+<p><u>Black Box Testing</u></p>
+
+<ul>
+  <li>Testing without checking internal code</li>
+</ul>
+
+<hr />
+<p><strong>Misc Information</strong></p>
+
+<p><a href="https://www.geeksforgeeks.org/types-software-testing/">Good article on different types of testing</a></p>
 
 
-
-  
-
-  <!-- Hide posts if front matter flag hide:true -->
-  
-  
-
-  <!-- Sort posts by rank, then date -->
-  
-  
-  
-
- 
-  
-
-   <!-- Assemble final sorted posts array -->
-  
-  <ul class="post-list"><li><h3>
-    <a class="post-link" href="/uat/agile%20development/testing/2021/01/20/uat.html">
-    Notes on UAT
-    </a>
-</h3><p class="post-meta-description">Study notes on how to User Acceptance Testing</p><p class="post-meta">Jan 20, 2021</p>
-</li><li><h3>
-    <a class="post-link" href="/user%20story/agile%20development/2021/01/19/user-story.html">
-    Notes on writing a good user story
-    </a>
-</h3><p class="post-meta-description">Study notes on how to write better user stories</p><p class="post-meta">Jan 19, 2021</p>
-</li><li><h3>
-    <a class="post-link" href="/tensorflow/neural%20style%20transfer/images/keras/2020/12/08/Neural_Style_Transfer.html">
-    Tutorial: Neural Style Transfer using Keras, Tensorflow
-    </a>
-</h3><p class="post-meta-description">Creating awesome images through Neural Style Transfer</p><p class="post-meta">Dec 8, 2020</p>
-</li><li><h3>
-    <a class="post-link" href="/deep%20learning/tensorflow/keras/real%20life%20study/2020/12/03/Car_Sales_prediction_using_Simple_DeepNeuralNetwork.html">
-    Practical Project in Deep Learning: Car Sales Prediction
-    </a>
-</h3><p class="post-meta-description">Car Sales predicting using simple sequential Deep Neural Network</p><p class="post-meta">Dec 3, 2020</p>
-</li><li><h3>
-    <a class="post-link" href="/twitter/nlp/pandas/data%20scraping/2020/12/03/Twitter_Data_Scrapping.html">
-    Datascraping using Twitter
-    </a>
-</h3><p class="post-meta-description">Scrapping Tweet data using python</p><p class="post-meta">Dec 3, 2020</p>
-</li><li><h3>
-    <a class="post-link" href="/pollution/time-series/pandas/visualization/prophet/2020/12/02/Time_Series_analysis_delhi.html">
-    Understanding the timeseries aspect on the air quality of Delhi
-    </a>
-</h3><p class="post-meta-description">Objective is to understand time series modeling and in turn forecast air quality of Delhi</p><p class="post-meta">Dec 2, 2020</p>
-</li><li><h3>
-    <a class="post-link" href="/funda/status/value/mindset/2020/11/30/Wealth-vs-Status.html">
-    Understanding Wealth Mindset and its difference with Status Mindset
-    </a>
-</h3><p class="post-meta-description">Status seeking or value seeking? Difference in mindset.</p><p class="post-meta">Nov 30, 2020</p>
-</li><li><h3>
-    <a class="post-link" href="/pollution/altair/pandas/visualization/2020/11/25/Air_Quality_Study1.html">
-    Understanding Air pollution
-    </a>
-</h3><p class="post-meta-description">Understanding Air pollution in India, its Constituents and Trends.</p><p class="post-meta">Nov 25, 2020</p>
-</li></ul>
-
-    </div>
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="kaushalbundel/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/uat/agile%20development/testing/2021/01/20/uat.html" hidden></a>
+</article>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
